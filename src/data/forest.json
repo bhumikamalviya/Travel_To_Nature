@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Amazon Rainforest",
+    "location": "South America",
+    "area_km2": 5500000,
+    "description": "The largest tropical rainforest in the world, home to incredible biodiversity and the Amazon River.",
+    "best_time_to_visit": "June to September",
+    "activities": ["Wildlife Tours", "Boat Trips", "Jungle Trekking"],
+    "image": "/images/forests/amazon.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Black Forest",
+    "location": "Germany",
+    "area_km2": 6000,
+    "description": "A dense forested mountain range in southwest Germany, famous for its scenic beauty and cuckoo clocks.",
+    "best_time_to_visit": "May to September",
+    "activities": ["Hiking", "Cycling", "Photography"],
+    "image": "/images/forests/blackforest.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Daintree Rainforest",
+    "location": "Australia",
+    "area_km2": 1200,
+    "description": "One of the oldest tropical rainforests in the world, rich in unique plants and wildlife.",
+    "best_time_to_visit": "May to September",
+    "activities": ["Guided Tours", "Wildlife Spotting", "River Cruises"],
+    "image": "/images/forests/daintree.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Congo Rainforest",
+    "location": "Central Africa",
+    "area_km2": 1700000,
+    "description": "The second largest tropical rainforest, vital for the Earth's climate and biodiversity.",
+    "best_time_to_visit": "June to September",
+    "activities": ["Wildlife Tours", "Photography", "Cultural Visits"],
+    "image": "/images/forests/congo.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Tongass National Forest",
+    "location": "USA (Alaska)",
+    "area_km2": 68000,
+    "description": "The largest national forest in the United States, with temperate rainforests and glaciers.",
+    "best_time_to_visit": "June to August",
+    "activities": ["Hiking", "Fishing", "Wildlife Viewing"],
+    "image": "/images/forests/tongass.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Sherwood Forest",
+    "location": "England",
+    "area_km2": 4.23,
+    "description": "Historic royal forest famous for its association with the legend of Robin Hood.",
+    "best_time_to_visit": "April to October",
+    "activities": ["Hiking", "Historical Tours", "Photography"],
+    "image": "/images/forests/sherwood.jpg"
+  }
+]

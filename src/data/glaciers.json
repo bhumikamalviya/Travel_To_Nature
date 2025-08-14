@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Vatnajökull Glacier",
+    "location": "Iceland",
+    "description": "Europe’s largest glacier, covering 8% of Iceland’s landmass, with stunning ice caves and volcanic landscapes.",
+    "best_time_to_visit": "November to March",
+    "activities": ["Ice Caving", "Glacier Hiking", "Photography"],
+    "image": "/images/glaciers/vatnajokull.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Perito Moreno Glacier",
+    "location": "Argentina",
+    "description": "One of the few advancing glaciers in the world, located in Los Glaciares National Park.",
+    "best_time_to_visit": "November to March",
+    "activities": ["Boat Tours", "Ice Trekking", "Photography"],
+    "image": "/images/glaciers/perito_moreno.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Aletsch Glacier",
+    "location": "Switzerland",
+    "description": "The largest glacier in the Alps, offering breathtaking mountain views.",
+    "best_time_to_visit": "June to September",
+    "activities": ["Hiking", "Skiing", "Cable Car Rides"],
+    "image": "/images/glaciers/aletsch.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Fox Glacier",
+    "location": "New Zealand",
+    "description": "A temperate maritime glacier descending from the Southern Alps to rainforest areas.",
+    "best_time_to_visit": "November to March",
+    "activities": ["Glacier Hiking", "Helicopter Tours", "Photography"],
+    "image": "/images/glaciers/fox.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Lambert Glacier",
+    "location": "Antarctica",
+    "description": "The world’s largest glacier, stretching over 400 km in length.",
+    "best_time_to_visit": "November to February",
+    "activities": ["Scientific Expeditions", "Photography"],
+    "image": "/images/glaciers/lambert.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Hubbard Glacier",
+    "location": "USA / Canada (Alaska & Yukon)",
+    "description": "One of the most active glaciers in North America, known for its massive calving events.",
+    "best_time_to_visit": "May to September",
+    "activities": ["Boat Tours", "Wildlife Viewing", "Photography"],
+    "image": "/images/glaciers/hubbard.jpg"
+  }
+]

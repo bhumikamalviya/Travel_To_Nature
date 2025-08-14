@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Yellowstone National Park",
+    "location": "USA",
+    "description": "The first national park in the world, famous for its geysers, hot springs, wildlife, and stunning landscapes.",
+    "best_time_to_visit": "May to September",
+    "activities": ["Wildlife Viewing", "Hiking", "Camping"],
+    "image": "/images/parks/yellowstone.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Banff National Park",
+    "location": "Canada",
+    "description": "Known for its turquoise lakes, snow-capped peaks, and outdoor adventure activities.",
+    "best_time_to_visit": "June to September",
+    "activities": ["Hiking", "Photography", "Skiing"],
+    "image": "/images/parks/banff.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Kruger National Park",
+    "location": "South Africa",
+    "description": "One of Africa’s largest game reserves, home to the Big Five and diverse wildlife.",
+    "best_time_to_visit": "May to September",
+    "activities": ["Safari", "Bird Watching", "Photography"],
+    "image": "/images/parks/kruger.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Serengeti National Park",
+    "location": "Tanzania",
+    "description": "Famous for the Great Migration and vast African savannah landscapes.",
+    "best_time_to_visit": "June to October",
+    "activities": ["Safari", "Wildlife Photography", "Camping"],
+    "image": "/images/parks/serengeti.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Yosemite National Park",
+    "location": "USA",
+    "description": "Known for its giant sequoia trees, granite cliffs, and waterfalls.",
+    "best_time_to_visit": "May to September",
+    "activities": ["Rock Climbing", "Hiking", "Camping"],
+    "image": "/images/parks/yosemite.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Plitvice Lakes National Park",
+    "location": "Croatia",
+    "description": "A UNESCO World Heritage site famous for its cascading lakes and waterfalls.",
+    "best_time_to_visit": "May to September",
+    "activities": ["Hiking", "Photography", "Boat Rides"],
+    "image": "/images/parks/plitvice.jpg"
+  }
+]

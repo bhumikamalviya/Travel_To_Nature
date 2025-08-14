@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Bora Bora",
+    "location": "French Polynesia",
+    "description": "Famous for its turquoise lagoon, luxury overwater bungalows, and coral reefs.",
+    "best_time_to_visit": "May to October",
+    "activities": ["Snorkeling", "Scuba Diving", "Lagoon Tours"],
+    "image": "/images/beaches/bora-bora.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Maldives",
+    "location": "Indian Ocean",
+    "description": "A tropical paradise of white sandy beaches, crystal-clear waters, and abundant marine life.",
+    "best_time_to_visit": "November to April",
+    "activities": ["Diving", "Resort Stay", "Island Hopping"],
+    "image": "/images/beaches/maldives.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Copacabana Beach",
+    "location": "Rio de Janeiro, Brazil",
+    "description": "One of the most famous urban beaches, known for its vibrant atmosphere and festivals.",
+    "best_time_to_visit": "December to March",
+    "activities": ["Beach Volleyball", "Surfing", "Nightlife"],
+    "image": "/images/beaches/copacabana.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Bondi Beach",
+    "location": "Sydney, Australia",
+    "description": "A surfing hotspot with golden sands, cliffside walks, and vibrant cafes.",
+    "best_time_to_visit": "September to April",
+    "activities": ["Surfing", "Coastal Walks", "Swimming"],
+    "image": "/images/beaches/bondi.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Waikiki Beach",
+    "location": "Honolulu, Hawaii",
+    "description": "Iconic beach destination with gentle waves, ideal for beginner surfers.",
+    "best_time_to_visit": "April to June & September to November",
+    "activities": ["Surfing Lessons", "Sunbathing", "Shopping"],
+    "image": "/images/beaches/waikiki.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Anse Source d’Argent",
+    "location": "La Digue, Seychelles",
+    "description": "A stunning beach with granite boulders, shallow clear waters, and soft white sand.",
+    "best_time_to_visit": "April to May & October to November",
+    "activities": ["Photography", "Swimming", "Kayaking"],
+    "image": "/images/beaches/anse-source.jpg"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Niagara Falls",
+    "location": "Canada / USA",
+    "height_m": 51,
+    "description": "One of the most famous waterfalls in the world, known for its massive water flow and boat tours.",
+    "best_time_to_visit": "June to August",
+    "activities": ["Boat Tours", "Sightseeing", "Photography"],
+    "image": "/images/waterfalls/niagara.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Angel Falls",
+    "location": "Venezuela",
+    "height_m": 979,
+    "description": "The tallest waterfall in the world, plunging from a tabletop mountain in Canaima National Park.",
+    "best_time_to_visit": "June to December",
+    "activities": ["Hiking", "Photography", "Scenic Flights"],
+    "image": "/images/waterfalls/angel.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Iguazu Falls",
+    "location": "Argentina / Brazil",
+    "height_m": 82,
+    "description": "A spectacular series of waterfalls spread over nearly 3 km, surrounded by lush rainforest.",
+    "best_time_to_visit": "March to May & August to September",
+    "activities": ["Boat Tours", "Wildlife Viewing", "Hiking"],
+    "image": "/images/waterfalls/iguazu.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Victoria Falls",
+    "location": "Zambia / Zimbabwe",
+    "height_m": 108,
+    "description": "Known as 'The Smoke That Thunders', it is one of the largest waterfalls in the world.",
+    "best_time_to_visit": "February to May",
+    "activities": ["Photography", "Helicopter Tours", "Whitewater Rafting"],
+    "image": "/images/waterfalls/victoria.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Yosemite Falls",
+    "location": "USA (California)",
+    "height_m": 739,
+    "description": "One of the tallest waterfalls in North America, located in the heart of Yosemite National Park.",
+    "best_time_to_visit": "April to June",
+    "activities": ["Hiking", "Photography", "Nature Walks"],
+    "image": "/images/waterfalls/yosemite.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Plitvice Waterfalls",
+    "location": "Croatia",
+    "height_m": 78,
+    "description": "A stunning series of cascades and turquoise lakes in Plitvice Lakes National Park.",
+    "best_time_to_visit": "May to September",
+    "activities": ["Hiking", "Photography", "Nature Walks"],
+    "image": "/images/waterfalls/plitvice.jpg"
+  }
+]
