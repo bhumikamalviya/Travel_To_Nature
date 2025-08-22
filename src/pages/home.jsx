@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Header } from "../componats/header";
+import { Footer } from "../componats/footer";
 
 export const Home = () => {
   const custom_shadow = {
@@ -21,7 +22,7 @@ export const Home = () => {
 
   return (
     <>
-      <Header />
+      <Header transparent />
 
       {/* Fixed Background Section */}
       <div
@@ -53,7 +54,7 @@ export const Home = () => {
       </div>
 
       {/* Scrollable content below */}
-      <section className="w-full bg-white py-20 px-6 md:px-16 flex flex-col md:flex-row items-center gap-12 min-h-[700px]">
+      <section className="w-full bg-[#faf8f8] py-20 px-6 md:px-16 flex flex-col md:flex-row items-center gap-12 min-h-[700px]">
         {/* Left Side - Overlapping Images */}
         <div className="relative w-full md:w-[65%] flex flex-col items-center md:items-start">
           {/* Nature 1 */}
@@ -126,6 +127,201 @@ export const Home = () => {
           </button>
         </motion.div>
       </section>
+
+      <section className="py-20 bg-[#e6e6e6] overflow-hidden ">
+        {/* Heading with animation */}
+        <motion.h2
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+          className="text-center text-5xl font-extrabold mb-16 
+        bg-gradient-to-r from-green-600 to-blue-600 text-transparent 
+        bg-clip-text tracking-wide drop-shadow-lg"
+        >
+          Featured Destinations
+        </motion.h2>
+
+        <div className="flex justify-center ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Card 1 */}
+            <motion.div
+              whileHover={{ scale: 1.05, rotate: 1 }}
+              whileTap={{ scale: 0.98 }}
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+              className="bg-gray-100 rounded-2xl w-[320px] overflow-hidden shadow-lg cursor-pointer"
+            >
+              <div className="overflow-hidden">
+                <motion.img
+                  src="src/assets/images/mountain/everest.webp"
+                  alt="Everest"
+                  className="h-48 w-full object-cover"
+                  whileHover={{ scale: 1.15 }}
+                  transition={{ duration: 0.5 }}
+                />
+              </div>
+              <div className="p-4 space-y-2">
+                <h3 className="font-bold text-2xl text-gray-800 tracking-wide">
+                  Mount Everest
+                </h3>
+                <p className="text-gray-600 text-sm font-serif italic">
+                  Breathtaking heights and scenic views.
+                </p>
+                <p className="text-blue-800 text-sm font-medium">
+                  <span className="font-semibold">Best time to visit:</span> April to May & September to November
+                </p>
+                <div>
+                  <p className="font-semibold text-gray-800 mb-1">Activities:</p>
+                  <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
+                    <li>Trekking</li>
+                    <li>Photography</li>
+                    <li>Expedition</li>
+                  </ul>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Card 2 */}
+            <motion.div
+              whileHover={{ scale: 1.05, rotate: -1 }}
+              whileTap={{ scale: 0.98 }}
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.9, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="bg-gray-100 rounded-2xl w-[320px] overflow-hidden shadow-lg cursor-pointer"
+            >
+              <div className="overflow-hidden">
+                <motion.img
+                  src="/src/assets/images/forest/amazon_rainforest.jpg"
+                  alt="Amazon Rainforest"
+                  className="h-48 w-full object-cover"
+                  whileHover={{ scale: 1.15 }}
+                  transition={{ duration: 0.5 }}
+                />
+              </div>
+              <div className="p-4 space-y-2">
+                <h3 className="font-bold text-2xl text-gray-800 tracking-wide">
+                  Amazon Rainforest
+                </h3>
+                <p className="text-gray-600 text-sm font-serif italic">
+                  The largest rainforest with unmatched biodiversity.
+                </p>
+                <p className="text-blue-800 text-sm font-medium">
+                  <span className="font-semibold">Best time to visit:</span> June to September
+                </p>
+                <div>
+                  <p className="font-semibold text-gray-800 mb-1">Activities:</p>
+                  <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
+                    <li>Wildlife Tours</li>
+                    <li>Boat Trips</li>
+                    <li>Jungle Trekking</li>
+                  </ul>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Card 3 */}
+            <motion.div
+              whileHover={{ scale: 1.05, rotate: 1 }}
+              whileTap={{ scale: 0.98 }}
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.4 }}
+              viewport={{ once: true }}
+              className="bg-gray-100 rounded-2xl w-[320px] overflow-hidden shadow-lg cursor-pointer"
+            >
+              <div className="overflow-hidden">
+                <motion.img
+                  src="/src/assets/images/waterfalls/niagara_falls.webp"
+                  alt="Niagara Falls"
+                  className="h-48 w-full object-cover"
+                  whileHover={{ scale: 1.15 }}
+                  transition={{ duration: 0.5 }}
+                />
+              </div>
+              <div className="p-4 space-y-2">
+                <h3 className="font-bold text-2xl text-gray-800 tracking-wide">
+                  Niagara Falls
+                </h3>
+                <p className="text-gray-600 text-sm font-serif italic">
+                  Iconic waterfall and natural wonder.
+                </p>
+                <p className="text-blue-800 text-sm font-medium">
+                  <span className="font-semibold">Best time to visit:</span> June to August
+                </p>
+                <div>
+                  <p className="font-semibold text-gray-800 mb-1">Activities:</p>
+                  <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
+                    <li>Boat Tours</li>
+                    <li>Sightseeing</li>
+                    <li>Photography</li>
+                  </ul>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      <section className="relative w-full h-auto flex flex-col items-center justify-center">
+        {/* Fixed Background Image */}
+        <div className="fixed top-0 left-0 w-full h-screen -z-10">
+          <img
+            src="/bottom_img.jpg"
+            alt="Nature Background"
+            className="w-full h-full object-cover"
+          />
+          {/* Gradient Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/50 to-transparent"></div>
+        </div>
+
+        {/* Content */}
+        <div className="relative w-full flex flex-col items-center justify-center px-4 py-32">
+          <p className="text-white font-semibold uppercase tracking-widest mb-4">
+            Why Choose Us
+          </p>
+          <h2 className="text-white text-3xl md:text-5xl font-extrabold mb-12 drop-shadow-lg text-center">
+            Explore nature, connect, and unwind.
+          </h2>
+
+          {/* Cards */}
+<div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl">
+  <div className="bg-transparent backdrop-blur p-6 rounded-xl shadow-lg border border-white/30 text-white 
+                  transform transition duration-300 hover:scale-105">
+    <h3 className="font-bold text-xl mb-3">Joyful Experience</h3>
+    <p className="text-sm">
+      Experience breathtaking landscapes, savor local cuisine,
+      and enjoy peaceful surroundings for a truly joyful adventure.
+    </p>
+  </div>
+
+  <div className="bg-transparent backdrop-blur p-6 rounded-xl shadow-lg border border-white/30 text-white 
+                  transform transition duration-300 hover:scale-105">
+    <h3 className="font-bold text-xl mb-3">Meet People</h3>
+    <p className="text-sm">
+      Connect with fellow travelers and nature enthusiasts while exploring scenic
+      landscapes and local cultures.
+    </p>
+  </div>
+
+  <div className="bg-transparent backdrop-blur p-6 rounded-xl shadow-lg border border-white/30 text-white 
+                  transform transition duration-300 hover:scale-105">
+    <h3 className="font-bold text-xl mb-3">Peaceful & Relaxing</h3>
+    <p className="text-sm">
+      Enjoy serene landscapes and quiet moments, making your nature escape truly rejuvenating.
+    </p>
+  </div>
+</div>
+
+        </div>
+      </section>
+
+
+      <Footer />
     </>
   );
 };

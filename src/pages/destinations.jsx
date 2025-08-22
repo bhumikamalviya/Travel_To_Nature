@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Header } from "../componats/header";
+import { Footer } from "../componats/footer";
 
 export const Destinations = ({data}) => {
   const btnStyle =
@@ -9,13 +10,11 @@ export const Destinations = ({data}) => {
     <>
       <Header />
 
-      <div className="pt-6 p-4 bg-[url('/header-hero.jpg')] bg-cover bg-bottom sticky top-0">
+      <div className="pt-6 p-4 bg-[#166a72] bg-cover bg-bottom sticky top-0">
         <div className="flex flex-wrap items-center gap-3 pt-20 ml-8 ">
           <p className="font-bold text-white text-2xl">Destinations:</p>
 
-          <Link to="/mountains" className={btnStyle}>
-            Mountains
-          </Link>
+         
           <Link to="/beaches" className={btnStyle}>
             Beaches
           </Link>
@@ -28,6 +27,9 @@ export const Destinations = ({data}) => {
           <Link to="/deserts" className={btnStyle}>
             Deserts
           </Link>
+           <Link to="/mountains" className={btnStyle}>
+            Mountains
+          </Link>
           <Link to="/nationalParks" className={btnStyle}>
             National Parks
           </Link>
@@ -35,7 +37,9 @@ export const Destinations = ({data}) => {
             Glaciers
           </Link>
         </div>
+        
       </div>
+     
     </>
   );
 };

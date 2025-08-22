@@ -1,57 +1,67 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
+import { FaHeart } from "react-icons/fa";
 
-// import "../App.css"; 
-
-export const Header = () => {
+export const Header = ({ transparent }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-transparent fixed top-0 w-full z-50 ">
+    <header
+      className={`fixed top-0 w-full z-50 transition-all duration-300 p-2
+      ${transparent 
+        ? "bg-transparent" 
+        : "bg-gradient-to-r from-[#166a72] to-[#166a72]"} `}
+    >
       <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
         {/* Logo */}
-       <img src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg" 
-       alt="logo" 
-       className="w-16 h-auto pt-4"
-       />
+        <img
+          src="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg"
+          alt="logo"
+          className="w-16 h-auto "
+        />
 
-        {/* Desktop Navigation Links */}
+        {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6 items-center">
-          <Link to="/" className="text-white font-bold hover:text-green-900">Home</Link>
-          <Link to="/destinations" className="text-white font-bold hover:text-green-900">Destinations</Link>
-          <Link to="/wishlist" className="text-white font-bold hover:text-green-900">❤️</Link>
-          <Link to="/planner" className="text-white font-bold hover:text-green-900">Planner</Link>
-          <Link to="/blog" className="text-white font-bold hover:text-green-900">Blog</Link>
-          <Link to="/about" className="text-white font-bold hover:text-green-900">About</Link>
-          <Link to="/contact" className="text-white  font-bold hover:text-green-900">Contact</Link>
+          <Link to="/" className={`font-bold hover:text-green-900 ${transparent ? "text-white" : "text-white"}`}>
+            Home
+          </Link>
+          <Link to="/destinations" className={`font-bold hover:text-green-900 ${transparent ? "text-white" : "text-white"}`}>
+            Destinations
+          </Link>
+          <Link to="/wishlist" className={`font-bold hover:text-green-900 ${transparent ? "text-white" : "text-white"}`}>
+      <FaHeart className="text-red-500 bold" />
+          </Link>
+          <Link to="/planner" className={`font-bold hover:text-green-900 ${transparent ? "text-white" : "text-white"}`}>
+            Planner
+          </Link>
+          <Link to="/contact" className={`font-bold hover:text-green-900 ${transparent ? "text-white" : "text-white"}`}>
+            Contact
+          </Link>
         </nav>
 
         {/* Mobile Menu Button */}
         <button
-          className="block md:hidden"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          <span className="text-green-800 text-2xl">☰</span>
-        </button>
-
+  className="block md:hidden relative z-[100]"   
+  onClick={() => setMenuOpen(!menuOpen)}
+>
+  <span className="text-white text-2xl">☰</span>
+</button>
       </div>
 
-      {/* Mobile Navigation (shown only when menuOpen is true) */}
-      {menuOpen && (
-        <div className="md:hidden px-4 pb-4 space-y-2">
-          <Link to="/" className="block text-green-700 hover:text-green-900">Home</Link>
-          <Link to="/destinations" className="block text-green-700 hover:text-green-900">Destinations</Link>
-          <Link to="/wishlist" className="block text-green-700 hover:text-green-900">❤️</Link>
-          <Link to="/planner" className="block text-green-700 hover:text-green-900">Planner</Link>
-          <Link to="/blog" className="block text-green-700 hover:text-green-900">Blog</Link>
-          <Link to="/about" className="block text-green-700 hover:text-green-900">About</Link>
-          <Link to="/contact" className="block text-green-700 hover:text-green-900">Contact</Link>
-        </div>
-      )}
+      {/* Mobile Nav */}
+{menuOpen && (
+  <div className="md:hidden fixed top-0 right-0 h-screen w-[30%] bg-black bg-opacity-70 text-white z-50 p-6 pt-16 space-y-4">
+    <Link to="/" className="block hover:text-green-400">Home</Link>
+    <Link to="/destinations" className="block hover:text-green-400">Destinations</Link>
+    <Link to="/wishlist" className="block hover:text-green-400">
+      <FaHeart className="text-red-500 bold" />
+    </Link>
+    <Link to="/planner" className="block hover:text-green-400">Planner</Link>
+    <Link to="/contact" className="block hover:text-green-400">Contact</Link>
+  </div>
+)}
 
-       <Outlet />
+
     </header>
-
-    
   );
 };

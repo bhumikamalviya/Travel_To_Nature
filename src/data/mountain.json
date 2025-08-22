@@ -1,66 +1,66 @@
 [
   {
-    "id": 1,
+    "id": 401,
     "name": "Mount Everest",
     "location": "Nepal / China (Tibet)",
     "height_m": 8848,
     "description": "The highest mountain in the world, popular among extreme mountaineers and trekkers. Offers breathtaking views of the Himalayas.",
     "best_time_to_visit": "April to May & September to November",
     "activities": ["Trekking", "Photography", "Expedition"],
-    "image": "everest.webp"
+    "image": "/src/assets/images/mountain/everest.webp"
   },
   
    {
-    "id": 3,
+    "id": 403,
     "name": "Matterhorn",
     "location": "Switzerland / Italy",
     "height_m": 4478,
     "description": "One of the most photographed mountains in the world, famous for its pyramid shape and alpine beauty.",
     "best_time_to_visit": "June to September",
     "activities": ["Hiking", "Skiing", "Cable Car Rides"],
-    "image": "/metterhorn.webp"
+    "image": "/src/assets/images/mountain/metterhorn.webp"
   },
   
  
   {
-    "id": 4,
+    "id": 404,
     "name": "Mount Fuji",
     "location": "Japan",
     "height_m": 3776,
     "description": "Japan’s iconic snow-capped mountain, a UNESCO World Heritage site and popular hiking destination.",
     "best_time_to_visit": "July to September",
     "activities": ["Hiking", "Sightseeing", "Photography"],
-    "image": "fujii.webp"
+    "image": "/src/assets/images/mountain/fujii.webp"
   },
   {
-    "id": 2,
+    "id": 402,
     "name": "Kangchenjunga",
     "location": "India / Nepal",
     "height_m": 8586,
     "description": "The third highest mountain in the world, surrounded by lush forests, glaciers, and scenic valleys.",
     "best_time_to_visit": "March to May & September to October",
     "activities": ["Trekking", "Nature Walks", "Camping"],
-    "image": "/kanchanjanga.jpg"
+    "image": "/src/assets/images/mountain/kanchanjanga.jpg"
   }
   ,
   {
-    "id": 5,
+    "id": 405,
     "name": "Rocky Mountains",
     "location": "Canada / USA",
     "height_m": 4401,
     "description": "A vast mountain range with stunning national parks, diverse wildlife, and numerous hiking trails.",
     "best_time_to_visit": "June to September",
     "activities": ["Hiking", "Wildlife Viewing", "Camping"],
-    "image": "/rockyM.webp"
+    "image": "/src/assets/images/mountain/rockyM.webp"
   },
   {
-    "id": 6,
+    "id": 406,
     "name": "Mont Blanc",
     "location": "France / Italy",
     "height_m": 4807,
     "description": "The highest mountain in the Alps, known for its breathtaking snow-covered peaks and alpine adventure opportunities.",
     "best_time_to_visit": "June to September",
     "activities": ["Mountaineering", "Skiing", "Hiking"],
-    "image": "/mont_blanc.webp"
+    "image": "/src/assets/images/mountain/mont_blanc.webp"
   }
 ]
