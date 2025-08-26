@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Header } from "../componats/header";
 import { Footer } from "../componats/footer";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   const custom_shadow = {
@@ -59,7 +60,7 @@ export const Home = () => {
         <div className="relative w-full md:w-[65%] flex flex-col items-center md:items-start">
           {/* Nature 1 */}
           <motion.img
-            src="/home_p_image1.jpg"
+            src="/home_page_e.jpg"
             alt="Nature 1"
             className="block w-[280px] sm:w-[350px] md:w-[420px] h-[300px] sm:h-[380px] md:h-[430px] object-cover mb-6"
             custom={0}
@@ -72,7 +73,7 @@ export const Home = () => {
 
           {/* Nature 2 */}
           <motion.img
-            src="/home_page_e.jpg"
+            src="contact3.jpg"
             alt="Nature 2"
             className="block lg:absolute top-10 right-0 w-[300px] md:w-[450px] h-[200px] md:h-[320px] object-cover mb-6 lg:mb-0"
             custom={1}
@@ -122,9 +123,13 @@ export const Home = () => {
             "Travel deep into nature and discover the untouched beauty that
             awakens your soul"
           </blockquote>
-          <button className="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 transition duration-300">
-            MEET OUR TEAM
+
+          <Link to="/destinations">
+           <button className="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 transition duration-300">
+           See All Destination
           </button>
+          </Link>
+         
         </motion.div>
       </section>
 

@@ -22,19 +22,19 @@ export const Header = ({ transparent }) => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-6 items-center">
-          <Link to="/" className={`font-bold hover:text-green-900 ${transparent ? "text-white" : "text-white"}`}>
+          <Link to="/" className={`font-bold  ${transparent ? "text-white" : "text-white"}`}>
             Home
           </Link>
-          <Link to="/destinations" className={`font-bold hover:text-green-900 ${transparent ? "text-white" : "text-white"}`}>
+          <Link to="/destinations" className={`font-bold ${transparent ? "text-white" : "text-white"}`}>
             Destinations
           </Link>
-          <Link to="/wishlist" className={`font-bold hover:text-green-900 ${transparent ? "text-white" : "text-white"}`}>
+          <Link to="/wishlist" className={`font-bold ${transparent ? "text-white" : "text-white"}`}>
       <FaHeart className="text-red-500 bold" />
           </Link>
-          <Link to="/planner" className={`font-bold hover:text-green-900 ${transparent ? "text-white" : "text-white"}`}>
+          <Link to="/planner" className={`font-bold ${transparent ? "text-white" : "text-white"}`}>
             Planner
           </Link>
-          <Link to="/contact" className={`font-bold hover:text-green-900 ${transparent ? "text-white" : "text-white"}`}>
+          <Link to="/contact" className={`font-bold ${transparent ? "text-white" : "text-white"}`}>
             Contact
           </Link>
         </nav>
@@ -58,6 +58,7 @@ export const Header = ({ transparent }) => {
     </Link>
     <Link to="/planner" className="block hover:text-green-400">Planner</Link>
     <Link to="/contact" className="block hover:text-green-400">Contact</Link>
+  
   </div>
 )}
 

@@ -1,30 +1,56 @@
 [
-
   {
     "id": 2,
     "name": "Maldives",
     "location": "Indian Ocean",
     "description": "A tropical paradise of white sandy beaches, crystal-clear waters, and abundant marine life.",
     "best_time_to_visit": "November to April",
+    "descriptionn": "The Maldives, a chain of over 1,000 coral islands, is world-famous for its luxury resorts, turquoise lagoons, and vibrant marine biodiversity. It is a dream destination for honeymooners, divers, and those seeking a tranquil escape surrounded by natural beauty. From overwater bungalows to underwater dining experiences, Maldives blends luxury with nature, offering an unforgettable paradise experience.",
     "activities": ["Diving", "Resort Stay", "Island Hopping"],
-    "image": "/src/assets/images/beaches/maldives.webp"
+    "activitiess": [
+      "Luxury overwater bungalow stays",
+      "Snorkeling with manta rays and whale sharks",
+      "Sunset cruises",
+      "Underwater dining experiences",
+      "Traditional Maldivian cultural shows"
+    ],
+    "image": "/src/assets/images/beaches/maldives1.jpg",
+    "images": ["/src/assets/images/beaches/maldives1.jpg","/src/assets/images/beaches/maldives2.jpg"]
   },
-    {
+  {
     "id": 1,
     "name": "Bora Bora",
     "location": "French Polynesia",
     "description": "Famous for its turquoise lagoon, luxury overwater bungalows, and coral reefs.",
     "best_time_to_visit": "May to October",
+    "descriptionn": "Bora Bora, often called the 'Pearl of the Pacific,' is a world-renowned romantic getaway known for its crystal-clear lagoon and iconic overwater villas. Surrounded by a barrier reef, it offers exceptional snorkeling and scuba diving opportunities. The island combines natural beauty with Polynesian culture, making it an idyllic destination for both adventure and relaxation.",
     "activities": ["Snorkeling", "Scuba Diving", "Lagoon Tours"],
-    "image": "/src/assets/images/beaches/bora_bora_beach.webp"
+    "activitiess": [
+      "Shark and ray feeding tours",
+      "Luxury spa treatments in overwater villas",
+      "Polynesian dance and cultural shows",
+      "Sunset catamaran cruises",
+      "Helicopter tours over the lagoon"
+    ],
+    "image": "/src/assets/images/beaches/bora_bora_beach.webp",
+     "images": ["/src/assets/images/beaches/bora_bora_beach.webp","/src/assets/images/beaches/bora-bora2.jpg"]
   },
-    {
+  {
     "id": 4,
     "name": "Bondi Beach",
     "location": "Sydney, Australia",
     "description": "A surfing hotspot with golden sands, cliffside walks, and vibrant cafes.",
     "best_time_to_visit": "September to April",
+    "descriptionn": "Bondi Beach, one of Australia’s most famous beaches, is known for its golden sands, powerful waves, and lively social atmosphere. It attracts surfers, fitness enthusiasts, and beachgoers from around the world. With the scenic Bondi to Coogee coastal walk and trendy seaside cafes, Bondi perfectly combines relaxation, adventure, and vibrant city culture.",
     "activities": ["Surfing", "Coastal Walks", "Swimming"],
+    "activitiess": [
+      "Surfing lessons with professionals",
+      "Exploring Bondi’s street art and murals",
+      "Coastal yoga and fitness activities",
+      "Beach festivals and local markets",
+      "Dining at iconic seaside cafes"
+    ],
+     "images": ["/src/assets/images/beaches/bondi%20beach.jpg","/src/assets/images/beaches/bondi-beach.jpg"],
     "image": "/src/assets/images/beaches/bondi%20beach.jpg"
   },
   {
@@ -33,17 +59,33 @@
     "location": "Rio de Janeiro, Brazil",
     "description": "One of the most famous urban beaches, known for its vibrant atmosphere and festivals.",
     "best_time_to_visit": "December to March",
+    "descriptionn": "Copacabana Beach in Rio de Janeiro is an iconic urban beach destination where golden sands meet vibrant Brazilian culture. Famous for its lively parties, festivals, and breathtaking views of Sugarloaf Mountain, it is a hub of music, dance, and sports. Visitors can enjoy the samba rhythms, beachfront bars, and exciting nightlife that keep Copacabana alive day and night.",
     "activities": ["Beach Volleyball", "Surfing", "Nightlife"],
+    "activitiess": [
+      "New Year’s Eve fireworks celebration",
+      "Samba dance performances",
+      "Local street food and drinks",
+      "Soccer matches on the sand",
+      "Shopping at beachfront markets"
+    ],
+     "images": ["/src/assets/images/beaches/copacabana_beach.webp","/src/assets/images/beaches/copacabana2.jpg"],
     "image": "/src/assets/images/beaches/copacabana_beach.webp"
   },
-
   {
     "id": 5,
     "name": "Waikiki Beach",
     "location": "Honolulu, Hawaii",
     "description": "Iconic beach destination with gentle waves, ideal for beginner surfers.",
     "best_time_to_visit": "April to June & September to November",
+    "descriptionn": "Waikiki Beach in Honolulu is world-famous for its gentle surf, making it the birthplace of modern surfing. Surrounded by luxury resorts, shops, and cultural landmarks, Waikiki offers a perfect mix of relaxation and Hawaiian tradition. With the backdrop of Diamond Head volcano, it’s a prime spot for both beach fun and sightseeing.",
     "activities": ["Surfing Lessons", "Sunbathing", "Shopping"],
+    "activitiess": [
+      "Hula dance shows and luaus",
+      "Catamaran sailing along the coast",
+      "Hiking Diamond Head crater",
+      "Cultural performances and museums",
+      "Local Hawaiian cuisine tasting"
+    ], "images": ["/src/assets/images/beaches/waikiki%20beach.webp","/src/assets/images/beaches/waikiki2.jpg"],
     "image": "/src/assets/images/beaches/waikiki%20beach.webp"
   },
   {
@@ -52,7 +94,16 @@
     "location": "La Digue, Seychelles",
     "description": "A stunning beach with granite boulders, shallow clear waters, and soft white sand.",
     "best_time_to_visit": "April to May & October to November",
+    "descriptionn": "Anse Source d’Argent in Seychelles is one of the most photographed beaches in the world, known for its dramatic granite boulders and crystal-clear shallow waters. It is ideal for swimming, snorkeling, and photography, especially at sunrise and sunset when the scenery becomes magical. The beach offers a tranquil escape surrounded by untouched tropical beauty.",
     "activities": ["Photography", "Swimming", "Kayaking"],
+    "activitiess": [
+      "Snorkeling among colorful coral reefs",
+      "Cycling around La Digue island",
+      "Sunset beach photography",
+      "Exploring hidden coves and lagoons",
+      "Relaxing with local Creole food nearby"
+    ],
+     "images": ["/src/assets/images/beaches/anse%20sourse%20beach.webp","/src/assets/images/beaches/anse-source.jpg"],
     "image": "/src/assets/images/beaches/anse%20sourse%20beach.webp"
   }
 ]

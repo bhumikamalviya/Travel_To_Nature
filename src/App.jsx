@@ -12,6 +12,10 @@ import { Waterfalls } from "./componats/whaterfalls";
 import { Parks } from "./componats/nationalParks";
 import { Contact } from "./pages/contact";
 import { Planner } from "./pages/planner";
+import { MountainDetail } from "./Learn-more-pages/mountainDetail";
+import { BeachDetail } from "./Learn-more-pages/beachesDetail";
+import { ForestDetail } from "./Learn-more-pages/forestDetail";
+
 
 function App() {
   return (
@@ -29,7 +33,10 @@ function App() {
         <Route path="/nationalParks" element={<Parks />} />
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/planner" element={<Planner/>}/>
- 
+         <Route path="/mountains/:id" element={<MountainDetail/>} />
+         <Route path="/beaches/:id" element={<BeachDetail/>}/>
+         <Route path="/forest/:id" element={<ForestDetail/>}/>
+        
       </Routes>
     </WishProvider>
   );

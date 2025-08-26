@@ -6,10 +6,13 @@ import { Destinations } from "../pages/destinations";
 import beaches from "../../src/data/beaches.json"; 
 import { useWish } from "../context/WishContext";
 import { Footer } from "./footer";
+import { useNavigate } from "react-router-dom";
 
 export function Beaches() {
   const { likedItems, wishlistItems, toggleLike, toggleWishlist } = useWish(); // ✅ like + wishlist dono
   const [notifications, setNotifications] = useState([]);
+
+  const navigate = useNavigate();
 
   // 🔔 Notification system
   const showNotification = (message, type = "default") => {
@@ -124,7 +127,7 @@ export function Beaches() {
               </p>
               <button
                 className="mt-4 px-2 py-1 bg-blue-600 text-white rounded-lg shadow hover:bg-green-700 hover:scale-105 transition-all duration-300"
-                onClick={() => alert(`Learn more about ${beach.name}`)}
+                onClick={() =>navigate(`/beaches/${beach.id}`)}
               >
                 Learn More
               </button>

@@ -6,8 +6,20 @@
     "height_m": 51,
     "description": "One of the most famous waterfalls in the world, known for its massive water flow and boat tours.",
     "best_time_to_visit": "June to August",
+    "descriptionn": "Niagara Falls is a world-renowned natural wonder located on the border between Canada and the USA. With its breathtaking water flow and thundering roar, it attracts millions of visitors each year. The falls are made up of the Horseshoe Falls, American Falls, and Bridal Veil Falls. Visitors can experience thrilling boat rides, enjoy panoramic views, and explore vibrant nightlife and attractions around the falls. Lit up beautifully at night, it’s a magical sight for couples, families, and adventurers alike.",
+    "activitiess": [
+      "Boat rides close to the falls",
+      "Viewing the falls illuminated at night",
+      "Exploring Niagara Parks and gardens",
+      "Helicopter rides for aerial views",
+      "Visiting the Niagara SkyWheel and casinos"
+    ],
     "activities": ["Boat Tours", "Sightseeing", "Photography"],
-    "image": "/src/assets/images/waterfalls/niagara_falls.webp"
+    "image": "/src/assets/images/waterfalls/niagara_falls.webp",
+    "images": [
+      "/src/assets/images/waterfalls/niagara_falls.webp",
+      "/src/assets/images/waterfalls/niagara_falls2.webp"
+    ]
   },
   {
     "id": 602,
@@ -16,8 +28,20 @@
     "height_m": 979,
     "description": "The tallest waterfall in the world, plunging from a tabletop mountain in Canaima National Park.",
     "best_time_to_visit": "June to December",
+    "descriptionn": "Angel Falls in Venezuela is the tallest waterfall in the world, dropping an incredible 979 meters from the edge of Auyán-Tepui mountain. Located deep in Canaima National Park, this remote wonder is surrounded by lush tropical rainforest and towering cliffs. The falls are often shrouded in mist, creating a magical and otherworldly atmosphere. Reaching the falls requires an adventurous journey by boat or flight, rewarding visitors with unforgettable views of pristine wilderness.",
+    "activitiess": [
+      "Guided hikes to viewpoints",
+      "Boat trips through rivers and lagoons",
+      "Scenic flights over Canaima National Park",
+      "Camping near the waterfalls",
+      "Wildlife observation in the jungle"
+    ],
     "activities": ["Hiking", "Photography", "Scenic Flights"],
-    "image": "/src/assets/images/waterfalls/angel%20falls.webp"
+    "image": "/src/assets/images/waterfalls/angel%20falls.webp",
+    "images": [
+      "/src/assets/images/waterfalls/angel%20falls.webp",
+      "/src/assets/images/waterfalls/angel_falls2.webp"
+    ]
   },
   {
     "id": 603,
@@ -26,8 +50,20 @@
     "height_m": 82,
     "description": "A spectacular series of waterfalls spread over nearly 3 km, surrounded by lush rainforest.",
     "best_time_to_visit": "March to May & August to September",
+    "descriptionn": "Iguazu Falls, straddling the border of Argentina and Brazil, is one of the largest and most stunning waterfall systems in the world. With more than 270 cascades spread across nearly 3 km, it creates an awe-inspiring natural spectacle. Surrounded by subtropical rainforest, it is also home to rich biodiversity including toucans, butterflies, and jaguars. Walkways and boat tours allow visitors to experience the falls from multiple perspectives, including the mighty ‘Devil’s Throat’.",
+    "activitiess": [
+      "Walking trails on Argentine and Brazilian sides",
+      "Boat rides close to the Devil’s Throat",
+      "Helicopter rides for aerial views",
+      "Wildlife and bird watching",
+      "Exploring Iguazu National Park"
+    ],
     "activities": ["Boat Tours", "Wildlife Viewing", "Hiking"],
-    "image": "/src/assets/images/waterfalls/iguazu_falls.webp"
+    "image": "/src/assets/images/waterfalls/iguazu_falls.webp",
+    "images": [
+      "/src/assets/images/waterfalls/iguazu_falls.webp",
+      "/src/assets/images/waterfalls/iguazu_falls2.webp"
+    ]
   },
   {
     "id": 604,
@@ -36,8 +72,20 @@
     "height_m": 108,
     "description": "Known as 'The Smoke That Thunders', it is one of the largest waterfalls in the world.",
     "best_time_to_visit": "February to May",
+    "descriptionn": "Victoria Falls, located on the Zambezi River between Zambia and Zimbabwe, is one of the largest and most powerful waterfalls in the world. Locally known as 'Mosi-oa-Tunya' or 'The Smoke That Thunders', it produces a dramatic spray visible from miles away. Adventure seekers can enjoy bungee jumping, rafting, or helicopter tours, while others can relax with breathtaking views from scenic walkways. The falls are a UNESCO World Heritage Site and a must-see natural wonder.",
+    "activitiess": [
+      "Helicopter or microlight flights",
+      "Walking tours along viewpoints",
+      "Whitewater rafting on the Zambezi River",
+      "Bungee jumping from Victoria Falls Bridge",
+      "Visiting Devil’s Pool during dry season"
+    ],
     "activities": ["Photography", "Helicopter Tours", "Whitewater Rafting"],
-    "image": "/src/assets/images/waterfalls/victoria_fall.webp"
+    "image": "/src/assets/images/waterfalls/victoria_fall.webp",
+    "images": [
+      "/src/assets/images/waterfalls/victoria_fall.webp",
+      "/src/assets/images/waterfalls/victoria_falls2.webp"
+    ]
   },
   {
     "id": 605,
@@ -46,8 +94,20 @@
     "height_m": 739,
     "description": "One of the tallest waterfalls in North America, located in the heart of Yosemite National Park.",
     "best_time_to_visit": "April to June",
+    "descriptionn": "Yosemite Falls, situated in California’s Yosemite National Park, is one of the tallest waterfalls in North America with a total drop of 739 meters. It consists of three sections: Upper Falls, Middle Cascades, and Lower Falls. During spring, the waterfall is at its peak flow, creating stunning views against the backdrop of granite cliffs. The park’s trails, wildlife, and breathtaking landscapes make it a paradise for nature lovers and adventurers alike.",
+    "activitiess": [
+      "Hiking to Upper and Lower Falls viewpoints",
+      "Camping within Yosemite National Park",
+      "Rock climbing in surrounding cliffs",
+      "Nature walks and photography",
+      "Wildlife spotting (deer, bears, birds)"
+    ],
     "activities": ["Hiking", "Photography", "Nature Walks"],
-    "image": "/src/assets/images/waterfalls/yosemite_falls.jpg"
+    "image": "/src/assets/images/waterfalls/yosemite_falls.jpg",
+    "images": [
+      "/src/assets/images/waterfalls/yosemite_falls.jpg",
+      "/src/assets/images/waterfalls/yosemite_falls2.webp"
+    ]
   },
   {
     "id": 606,
@@ -56,7 +116,19 @@
     "height_m": 78,
     "description": "A stunning series of cascades and turquoise lakes in Plitvice Lakes National Park.",
     "best_time_to_visit": "May to September",
+    "descriptionn": "Plitvice Waterfalls in Croatia are part of the UNESCO-listed Plitvice Lakes National Park. Known for its interconnected turquoise lakes and cascading waterfalls, it offers a fairy-tale-like landscape. Wooden walkways guide visitors through lush greenery, crystal-clear waters, and multi-level falls. The park changes its colors with every season, making it a spectacular destination year-round for photographers, hikers, and nature lovers.",
+    "activitiess": [
+      "Walking trails along wooden boardwalks",
+      "Boat rides across lakes",
+      "Wildlife spotting (fish, birds, deer)",
+      "Photography of waterfalls and turquoise lakes",
+      "Exploring UNESCO World Heritage landscapes"
+    ],
     "activities": ["Hiking", "Photography", "Nature Walks"],
-    "image": "/src/assets/images/waterfalls/plitvise_falls.webp"
+    "image": "/src/assets/images/waterfalls/plitvise_falls.webp",
+    "images": [
+      "/src/assets/images/waterfalls/plitvise_falls.webp",
+      "/src/assets/images/waterfalls/plitvise_falls2.webp"
+    ]
   }
 ]

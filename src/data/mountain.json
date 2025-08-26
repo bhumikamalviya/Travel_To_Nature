@@ -6,8 +6,20 @@
     "height_m": 8848,
     "description": "The highest mountain in the world, popular among extreme mountaineers and trekkers. Offers breathtaking views of the Himalayas.",
     "best_time_to_visit": "April to May & September to November",
+    "descriptionn":"Mount Everest, standing tall at 8,848 meters, is the highest mountain in the world and the crown jewel of the Himalayas. Known as 'Sagarmatha' in Nepal and 'Chomolungma' in Tibet, it has been the ultimate dream for mountaineers and adventurers from around the globe. The journey to Everest offers breathtaking views of snow-covered peaks, rich Sherpa culture, ancient monasteries, and challenging trekking routes. Whether you aim to reach the summit or simply trek to the Everest Base Camp, the experience is nothing short of life-changing, filled with awe, inspiration, and respect for nature.",
+    "activitiess":  [
+    "High-altitude trekking to Everest Base Camp",
+    "Photography of stunning Himalayan landscapes",
+    "Full-scale mountaineering expeditions",
+    "Exploring Sherpa culture and local monasteries",
+    "Adventure camping and stargazing in the mountains"
+  ],
     "activities": ["Trekking", "Photography", "Expedition"],
-    "image": "/src/assets/images/mountain/everest.webp"
+    "image": "/src/assets/images/mountain/everest.webp",
+    "images": [
+      "/src/assets/images/mountain/everest.webp",
+      "/src/assets/images/mountain/everest2.webp"
+    ]
   },
   
    {
@@ -15,10 +27,22 @@
     "name": "Matterhorn",
     "location": "Switzerland / Italy",
     "height_m": 4478,
-    "description": "One of the most photographed mountains in the world, famous for its pyramid shape and alpine beauty.",
+     "descriptionn": "The Matterhorn is one of the most iconic peaks in the Alps and one of the most photographed mountains in the world. Rising 4,478 meters high, it is instantly recognizable by its near-perfect pyramid shape that dominates the skyline of Zermatt, Switzerland. The mountain straddles the border of Switzerland and Italy, offering breathtaking alpine views, pristine glaciers, and charming mountain villages. Visitors can enjoy panoramic vistas, alpine meadows filled with wildflowers, and the crystal-clear lakes that surround the region. Its dramatic shape and rich mountaineering history make it a symbol of the Swiss Alps and a dream destination for adventure seekers and nature lovers alike.",
+     "description": "One of the most photographed mountains in the world, famous for its pyramid shape and alpine beauty.",
     "best_time_to_visit": "June to September",
+     "activitiess": [
+    "Scenic Hiking Trails through alpine meadows and forests",
+    "Skiing and Snowboarding on world-class slopes in Zermatt",
+    "Cable Car Rides to Gornergrat and Klein Matterhorn for panoramic views",
+    "Photography and Nature Walks around mountain lakes like Riffelsee",
+    "Exploring Zermatt’s alpine culture, food, and local traditions"
+  ],
     "activities": ["Hiking", "Skiing", "Cable Car Rides"],
-    "image": "/src/assets/images/mountain/metterhorn.webp"
+    "image": "/src/assets/images/mountain/metterhorn.webp",
+      "images": [
+     "/src/assets/images/mountain/metterhorn.webp",
+      "/src/assets/images/mountain/metterhorn2.jpg"
+    ]
   },
   
  
@@ -27,20 +51,42 @@
     "name": "Mount Fuji",
     "location": "Japan",
     "height_m": 3776,
+     "activitiess": [
+    "Hiking",
+    "Sightseeing",
+    "Photography",
+    "Cultural Tours",
+    "Onsen (Hot Spring) Visits",
+    "Cycling around Fuji Five Lakes",
+    "Cherry Blossom Viewing",
+    "Winter Snow Activities" ],
+    "descriptionn": "Mount Fuji, Japan’s tallest peak, is an active stratovolcano and one of the country’s most sacred symbols. Famous for its perfectly symmetrical snow-capped cone, it is recognized as a UNESCO World Heritage Site. Beyond hiking, visitors can enjoy panoramic views from nearby lakes, explore traditional shrines, soak in hot spring onsens, and immerse themselves in Japanese culture. The mountain is also a favorite subject for artists and photographers, especially during cherry blossom season and winter when the summit glistens with snow.",
     "description": "Japan’s iconic snow-capped mountain, a UNESCO World Heritage site and popular hiking destination.",
     "best_time_to_visit": "July to September",
     "activities": ["Hiking", "Sightseeing", "Photography"],
-    "image": "/src/assets/images/mountain/fujii.webp"
+    "image": "/src/assets/images/mountain/fujii.webp",
+    "images": ["/src/assets/images/mountain/fujii.webp","/src/assets/images/mountain/fuji2.jpg"]
   },
   {
     "id": 402,
     "name": "Kangchenjunga",
     "location": "India / Nepal",
     "height_m": 8586,
+    "descriptionn": "Kangchenjunga, the world’s third-highest mountain, stands majestically on the border of India and Nepal. Revered as a sacred peak by local communities, it is surrounded by pristine forests, dramatic glaciers, and breathtaking valleys. The region is home to diverse flora and fauna, including rare species like the red panda and snow leopard. Known for its challenging trekking routes, Kangchenjunga offers unspoiled natural beauty and a chance to experience the culture of remote Himalayan villages. Its five massive peaks are often called the 'Five Treasures of the Great Snow,' symbolizing gold, silver, gems, grain, and holy scriptures in local folklore.",
     "description": "The third highest mountain in the world, surrounded by lush forests, glaciers, and scenic valleys.",
     "best_time_to_visit": "March to May & September to October",
     "activities": ["Trekking", "Nature Walks", "Camping"],
-    "image": "/src/assets/images/mountain/kanchanjanga.jpg"
+    "image": "/src/assets/images/mountain/kanchanjanga.jpg",
+     "images":[ "/src/assets/images/mountain/kanchanjanga.jpg","/src/assets/images/mountain/kanchanjunga2.jpg"],
+     "activitiess": [
+    "Trekking",
+    "Nature Walks",
+    "Camping",
+    "Cultural Village Tours",
+    "Bird Watching",
+    "Mountaineering (Advanced Climbers)",
+    "Meditation Retreats in Monasteries",
+    "Scenic Flights"]
   }
   ,
   {
@@ -48,19 +94,48 @@
     "name": "Rocky Mountains",
     "location": "Canada / USA",
     "height_m": 4401,
+    "descriptionn": "The Rocky Mountains, stretching across Canada and the United States, are one of North America’s most iconic natural wonders. Known for their snow-capped peaks, alpine lakes, dense forests, and expansive national parks like Banff, Jasper, and Yellowstone, the Rockies attract millions of visitors each year. The range is home to diverse wildlife, including elk, grizzly bears, moose, and eagles. Whether it’s thrilling outdoor adventures or peaceful escapes into nature, the Rockies offer something for everyone—from scenic drives along the Icefields Parkway to cozy mountain lodges nestled in serene valleys.",
     "description": "A vast mountain range with stunning national parks, diverse wildlife, and numerous hiking trails.",
     "best_time_to_visit": "June to September",
     "activities": ["Hiking", "Wildlife Viewing", "Camping"],
-    "image": "/src/assets/images/mountain/rockyM.webp"
+    "image": "/src/assets/images/mountain/rockyM.webp",
+     "images": ["/src/assets/images/mountain/rockyM.webp","/src/assets/images/mountain/roky.jpg"],
+     "activitiess": [
+    "Hiking",
+    "Wildlife Viewing",
+    "Camping",
+    "Skiing & Snowboarding",
+    "Fishing",
+    "Scenic Drives",
+    "Rock Climbing",
+    "Kayaking & Canoeing",
+    "Horseback Riding",
+    "Stargazing",
+    "Photography Tours"
+  ]
   },
   {
     "id": 406,
     "name": "Mont Blanc",
     "location": "France / Italy",
     "height_m": 4807,
+    "descriptionn": "Mont Blanc, the highest peak in the Alps, rises majestically at the border of France and Italy. Its snow-covered slopes and glaciers have earned it the title 'The Roof of Europe.' A world-famous destination for adventurers and nature lovers, Mont Blanc offers a blend of thrilling alpine activities and breathtaking scenery. The region is dotted with charming alpine villages like Chamonix, where visitors can enjoy traditional cuisine, cable car rides with panoramic views, and a mix of French and Italian culture. Whether climbing, skiing, or simply taking in the majestic vistas, Mont Blanc remains a bucket-list experience for travelers across the globe.",
     "description": "The highest mountain in the Alps, known for its breathtaking snow-covered peaks and alpine adventure opportunities.",
     "best_time_to_visit": "June to September",
     "activities": ["Mountaineering", "Skiing", "Hiking"],
-    "image": "/src/assets/images/mountain/mont_blanc.webp"
+    "image": "/src/assets/images/mountain/mont_blanc.webp",
+     "images":[ "/src/assets/images/mountain/mont_blanc.webp", "/src/assets/images/mountain/blac.jpg"],
+     "activitiess": [
+    "Mountaineering",
+    "Skiing",
+    "Hiking",
+    "Snowboarding",
+    "Ice Climbing",
+    "Paragliding",
+    "Glacier Tours",
+    "Scenic Cable Car Rides",
+    "Photography",
+    "Cultural Village Visits"
+  ]
   }
 ]

@@ -6,10 +6,13 @@ import { Destinations } from "../pages/destinations";
 import forests from "../../src/data/forest.json"; 
 import { useWish } from "../context/WishContext";
 import { Footer } from "./footer";
+import { useNavigate } from "react-router-dom";
 
 export function Forests() {
   const { likedItems, toggleLike} = useWish();
   const [notifications, setNotifications] = useState([]);
+ 
+  const navigate = useNavigate();
 
   // 🔔 Notification function (color-coded like Waterfalls)
   const showNotification = (message, type = "default") => {
@@ -128,7 +131,7 @@ export function Forests() {
 
               <button
                 className="mt-4 px-2 py-1 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 hover:scale-105 transition-all duration-300"
-                onClick={() => alert(`Learn more about ${forest.name}`)}
+                onClick={() => navigate(`/forest/${forest.id}`)}
               >
                 Learn More
               </button>

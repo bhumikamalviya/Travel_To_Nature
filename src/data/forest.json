@@ -6,8 +6,18 @@
     "area_km2": 5500000,
     "description": "The largest tropical rainforest in the world, home to incredible biodiversity and the Amazon River.",
     "best_time_to_visit": "June to September",
+    "descriptionn": "The Amazon Rainforest, covering over 5.5 million square kilometers, is the largest tropical rainforest on Earth. It is often called the 'lungs of the planet' as it produces 20% of the world's oxygen. Home to millions of species, including jaguars, anacondas, and pink dolphins, it also shelters indigenous tribes living in harmony with nature. The mighty Amazon River flows through its heart, making it an unparalleled destination for nature lovers and adventurers.",
     "activities": ["Wildlife Tours", "Boat Trips", "Jungle Trekking"],
+    "activitiess": [
+      "Exploring the Amazon River by boat",
+      "Spotting exotic wildlife like macaws and sloths",
+      "Guided jungle treks with local experts",
+      "Visiting indigenous villages",
+      "Night safaris to see nocturnal animals"
+    ],
+     "images": ["/src/assets/images/forest/amazon_rainforest.jpg","/src/assets/images/forest/amazon_rainforest.jpg"],
     "image": "/src/assets/images/forest/amazon_rainforest.jpg"
+    
   },
   {
     "id": 202,
@@ -16,7 +26,15 @@
     "area_km2": 6000,
     "description": "A dense forested mountain range in southwest Germany, famous for its scenic beauty and cuckoo clocks.",
     "best_time_to_visit": "May to September",
+    "descriptionn": "The Black Forest in Germany is a magical region of thick woodlands, fairy-tale villages, and rolling hills. Famous for inspiring the Brothers Grimm stories, this forest offers breathtaking hiking trails, picturesque lakes, and charming spa towns. Its cultural identity is tied to cuckoo clocks, delicious Black Forest cake, and folklore, making it both a natural and cultural treasure.",
     "activities": ["Hiking", "Cycling", "Photography"],
+    "activitiess": [
+      "Exploring fairy-tale style villages",
+      "Hiking scenic forest trails",
+      "Cycling through lush landscapes",
+      "Trying the famous Black Forest cake",
+      "Photography of lakes and mountains"
+    ],
     "image": "/src/assets/images/forest/black_forest.webp"
   },
   {
@@ -26,7 +44,15 @@
     "area_km2": 1200,
     "description": "One of the oldest tropical rainforests in the world, rich in unique plants and wildlife.",
     "best_time_to_visit": "May to September",
+    "descriptionn": "The Daintree Rainforest in Australia is over 135 million years old, making it one of the world's oldest rainforests. This UNESCO World Heritage site is filled with rare flora and fauna found nowhere else on Earth. Visitors can enjoy guided walks, river cruises, and spot cassowaries, tree kangaroos, and crocodiles. It is also unique because the rainforest meets the Great Barrier Reef along the coast.",
     "activities": ["Guided Tours", "Wildlife Spotting", "River Cruises"],
+    "activitiess": [
+      "Walking through canopy walkways",
+      "River cruises spotting crocodiles",
+      "Birdwatching for exotic species",
+      "Learning about Aboriginal culture",
+      "Exploring where rainforest meets reef"
+    ],
     "image": "/src/assets/images/forest/daintree_rainforest.jpg"
   },
   {
@@ -36,7 +62,15 @@
     "area_km2": 1700000,
     "description": "The second largest tropical rainforest, vital for the Earth's climate and biodiversity.",
     "best_time_to_visit": "June to September",
+    "descriptionn": "The Congo Rainforest, the world's second largest, is a treasure of biodiversity and an essential part of the Earth's ecological balance. Stretching across six African countries, it is home to gorillas, forest elephants, and rare okapis. Its rivers and wetlands are equally stunning, and its tribal cultures offer deep insights into life in harmony with nature.",
     "activities": ["Wildlife Tours", "Photography", "Cultural Visits"],
+    "activitiess": [
+      "Trekking to see mountain gorillas",
+      "Exploring vast rivers and waterfalls",
+      "Cultural exchanges with local tribes",
+      "Wildlife photography of elephants and okapis",
+      "Guided eco-tours through dense jungles"
+    ],
     "image": "/src/assets/images/forest/congo%20rainforest.webp"
   },
   {
@@ -46,7 +80,15 @@
     "area_km2": 68000,
     "description": "The largest national forest in the United States, with temperate rainforests and glaciers.",
     "best_time_to_visit": "June to August",
+    "descriptionn": "Tongass National Forest in Alaska is the largest national forest in the USA, covering glaciers, fjords, and temperate rainforests. This wilderness paradise offers spectacular views of bald eagles, brown bears, and humpback whales. Its rugged landscape makes it a dream destination for outdoor adventurers.",
     "activities": ["Hiking", "Fishing", "Wildlife Viewing"],
+    "activitiess": [
+      "Fishing in pristine rivers and lakes",
+      "Hiking glacier-fed trails",
+      "Wildlife viewing of bears and whales",
+      "Exploring fjords by boat",
+      "Camping in untouched wilderness"
+    ],
     "image": "/src/assets/images/forest/tongass_forest.webp"
   },
   {
@@ -56,7 +98,15 @@
     "area_km2": 4.23,
     "description": "Historic royal forest famous for its association with the legend of Robin Hood.",
     "best_time_to_visit": "April to October",
+    "descriptionn": "Sherwood Forest in England is legendary as the home of Robin Hood and his merry men. Today, it is a beautiful woodland filled with ancient oak trees, scenic walking paths, and rich history. Families and history enthusiasts alike will love its medieval festivals and cultural events.",
     "activities": ["Hiking", "Historical Tours", "Photography"],
+    "activitiess": [
+      "Visiting the ancient Major Oak tree",
+      "Hiking woodland trails",
+      "Exploring Robin Hood themed sites",
+      "Attending medieval festivals",
+      "Photography of historic landscapes"
+    ],
     "image": "/src/assets/images/forest/sherwood_forest.jpg"
   }
 ]
