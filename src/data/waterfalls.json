@@ -15,10 +15,10 @@
       "Visiting the Niagara SkyWheel and casinos"
     ],
     "activities": ["Boat Tours", "Sightseeing", "Photography"],
-    "image": "/src/assets/images/waterfalls/niagara_falls.webp",
+    "image": "/images/waterfalls/niagara_falls.webp",
     "images": [
-      "/src/assets/images/waterfalls/niagara_falls.webp",
-      "/src/assets/images/waterfalls/niagara_falls2.webp"
+      "/images/waterfalls/niagara_falls.webp",
+      "/images/waterfalls/niagara_falls2.webp"
     ]
   },
   {
@@ -37,10 +37,10 @@
       "Wildlife observation in the jungle"
     ],
     "activities": ["Hiking", "Photography", "Scenic Flights"],
-    "image": "/src/assets/images/waterfalls/angel%20falls.webp",
+    "image": "/images/waterfalls/angel%20falls.webp",
     "images": [
-      "/src/assets/images/waterfalls/angel%20falls.webp",
-      "/src/assets/images/waterfalls/angel_falls2.webp"
+      "/images/waterfalls/angel%20falls.webp",
+      "/images/waterfalls/angel_falls2.webp"
     ]
   },
   {
@@ -59,10 +59,10 @@
       "Exploring Iguazu National Park"
     ],
     "activities": ["Boat Tours", "Wildlife Viewing", "Hiking"],
-    "image": "/src/assets/images/waterfalls/iguazu_falls.webp",
+    "image": "/images/waterfalls/iguazu_falls.webp",
     "images": [
-      "/src/assets/images/waterfalls/iguazu_falls.webp",
-      "/src/assets/images/waterfalls/iguazu_falls2.webp"
+      "/images/waterfalls/iguazu_falls.webp",
+      "/images/waterfalls/iguazu_falls2.webp"
     ]
   },
   {
@@ -81,10 +81,10 @@
       "Visiting Devil’s Pool during dry season"
     ],
     "activities": ["Photography", "Helicopter Tours", "Whitewater Rafting"],
-    "image": "/src/assets/images/waterfalls/victoria_fall.webp",
+    "image": "/images/waterfalls/victoria_fall.webp",
     "images": [
-      "/src/assets/images/waterfalls/victoria_fall.webp",
-      "/src/assets/images/waterfalls/victoria_falls2.webp"
+      "/images/waterfalls/victoria_fall.webp",
+      "/images/waterfalls/victoria_falls2.webp"
     ]
   },
   {
@@ -103,10 +103,10 @@
       "Wildlife spotting (deer, bears, birds)"
     ],
     "activities": ["Hiking", "Photography", "Nature Walks"],
-    "image": "/src/assets/images/waterfalls/yosemite_falls.jpg",
+    "image": "/images/waterfalls/yosemite_falls.jpg",
     "images": [
-      "/src/assets/images/waterfalls/yosemite_falls.jpg",
-      "/src/assets/images/waterfalls/yosemite_falls2.webp"
+      "/images/waterfalls/yosemite_falls.jpg",
+      "/images/waterfalls/yosemite_falls2.webp"
     ]
   },
   {
@@ -125,10 +125,10 @@
       "Exploring UNESCO World Heritage landscapes"
     ],
     "activities": ["Hiking", "Photography", "Nature Walks"],
-    "image": "/src/assets/images/waterfalls/plitvise_falls.webp",
+    "image": "/images/waterfalls/plitvise_falls.webp",
     "images": [
-      "/src/assets/images/waterfalls/plitvise_falls.webp",
-      "/src/assets/images/waterfalls/plitvise_falls2.webp"
+      "/images/waterfalls/plitvise_falls.webp",
+      "/images/waterfalls/plitvise_falls2.webp"
     ]
   }
 ]
