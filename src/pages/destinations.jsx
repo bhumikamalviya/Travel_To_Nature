@@ -21,14 +21,14 @@ export const Destinations = ({data}) => {
           <Link to="/forest" className={btnStyle}>
             Forest
           </Link>
+            <Link to="/mountains" className={btnStyle}>
+            Mountains
+          </Link>
           <Link to="/waterfalls" className={btnStyle}>
             Waterfalls
           </Link>
           <Link to="/deserts" className={btnStyle}>
             Deserts
-          </Link>
-           <Link to="/mountains" className={btnStyle}>
-            Mountains
           </Link>
           <Link to="/nationalParks" className={btnStyle}>
             National Parks

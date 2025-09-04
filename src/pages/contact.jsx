@@ -36,11 +36,11 @@ export const Contact = () => {
         {/* Bottom Section */}
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* Left Side - Images */}
-          <div className="relative mr-16">
+          <div className="relative mr-16 mt-10 mb-10 ml-12">
             <motion.img
               src="contact3.jpg"
               alt="Contact"
-              className="w-full h-[350px] object-cover rounded-2xl shadow-2xl"
+              className="w-full h-[350px] object-cover  rounded-2xl shadow-2xl"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
