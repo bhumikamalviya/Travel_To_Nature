@@ -161,7 +161,7 @@ export const Home = () => {
             >
               <div className="overflow-hidden">
                 <motion.img
-                  src="src/assets/images/mountain/everest.webp"
+                  src="/images/mountain/everest.webp"
                   alt="Everest"
                   className="h-48 w-full object-cover"
                   whileHover={{ scale: 1.15 }}
@@ -201,7 +201,7 @@ export const Home = () => {
             >
               <div className="overflow-hidden">
                 <motion.img
-                  src="/src/assets/images/forest/amazon_rainforest.jpg"
+                  src="/images/forest/amazon_rainforest.jpg"
                   alt="Amazon Rainforest"
                   className="h-48 w-full object-cover"
                   whileHover={{ scale: 1.15 }}
@@ -241,7 +241,7 @@ export const Home = () => {
             >
               <div className="overflow-hidden">
                 <motion.img
-                  src="/src/assets/images/waterfalls/niagara_falls.webp"
+                  src="/images/waterfalls/niagara_falls.webp"
                   alt="Niagara Falls"
                   className="h-48 w-full object-cover"
                   whileHover={{ scale: 1.15 }}

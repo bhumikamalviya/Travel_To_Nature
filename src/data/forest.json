@@ -15,8 +15,8 @@
       "Visiting indigenous villages",
       "Night safaris to see nocturnal animals"
     ],
-     "images": ["/src/assets/images/forest/amazon_rainforest.jpg","/src/assets/images/forest/amazon_rainforest.jpg"],
-    "image": "/src/assets/images/forest/amazon_rainforest.jpg"
+     "images": ["/images/forest/amazon_rainforest.jpg","/images/forest/amazon_rainforest.jpg"],
+    "image": "/images/forest/amazon_rainforest.jpg"
     
   },
   {
@@ -35,7 +35,7 @@
       "Trying the famous Black Forest cake",
       "Photography of lakes and mountains"
     ],
-    "image": "/src/assets/images/forest/black_forest.webp"
+    "image": "/images/forest/black_forest.webp"
   },
   {
     "id": 203,
@@ -53,7 +53,7 @@
       "Learning about Aboriginal culture",
       "Exploring where rainforest meets reef"
     ],
-    "image": "/src/assets/images/forest/daintree_rainforest.jpg"
+    "image": "/images/forest/daintree_rainforest.jpg"
   },
   {
     "id": 204,
@@ -71,7 +71,7 @@
       "Wildlife photography of elephants and okapis",
       "Guided eco-tours through dense jungles"
     ],
-    "image": "/src/assets/images/forest/congo%20rainforest.webp"
+    "image": "/images/forest/congo%20rainforest.webp"
   },
   {
     "id": 205,
@@ -89,7 +89,7 @@
       "Exploring fjords by boat",
       "Camping in untouched wilderness"
     ],
-    "image": "/src/assets/images/forest/tongass_forest.webp"
+    "image": "/images/forest/tongass_forest.webp"
   },
   {
     "id": 206,
@@ -107,6 +107,6 @@
       "Attending medieval festivals",
       "Photography of historic landscapes"
     ],
-    "image": "/src/assets/images/forest/sherwood_forest.jpg"
+    "image": "/images/forest/sherwood_forest.jpg"
   }
 ]

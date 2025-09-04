@@ -14,8 +14,8 @@
       "Underwater dining experiences",
       "Traditional Maldivian cultural shows"
     ],
-    "image": "/src/assets/images/beaches/maldives1.jpg",
-    "images": ["/src/assets/images/beaches/maldives1.jpg","/src/assets/images/beaches/maldives2.jpg"]
+    "image": "/images/beaches/maldives1.jpg",
+    "images": ["/images/beaches/maldives1.jpg","/images/beaches/maldives2.jpg"]
   },
   {
     "id": 1,
@@ -32,8 +32,8 @@
       "Sunset catamaran cruises",
       "Helicopter tours over the lagoon"
     ],
-    "image": "/src/assets/images/beaches/bora_bora_beach.webp",
-     "images": ["/src/assets/images/beaches/bora_bora_beach.webp","/src/assets/images/beaches/bora-bora2.jpg"]
+    "image": "/images/beaches/bora_bora_beach.webp",
+     "images": ["/images/beaches/bora_bora_beach.webp","/images/beaches/bora-bora2.jpg"]
   },
   {
     "id": 4,
@@ -50,8 +50,8 @@
       "Beach festivals and local markets",
       "Dining at iconic seaside cafes"
     ],
-     "images": ["/src/assets/images/beaches/bondi%20beach.jpg","/src/assets/images/beaches/bondi-beach.jpg"],
-    "image": "/src/assets/images/beaches/bondi%20beach.jpg"
+     "images": ["/images/beaches/bondi%20beach.jpg","/images/beaches/bondi-beach.jpg"],
+    "image": "/images/beaches/bondi%20beach.jpg"
   },
   {
     "id": 3,
@@ -68,8 +68,8 @@
       "Soccer matches on the sand",
       "Shopping at beachfront markets"
     ],
-     "images": ["/src/assets/images/beaches/copacabana_beach.webp","/src/assets/images/beaches/copacabana2.jpg"],
-    "image": "/src/assets/images/beaches/copacabana_beach.webp"
+     "images": ["/images/beaches/copacabana_beach.webp","/images/beaches/copacabana2.jpg"],
+    "image": "/images/beaches/copacabana_beach.webp"
   },
   {
     "id": 5,
@@ -85,8 +85,8 @@
       "Hiking Diamond Head crater",
       "Cultural performances and museums",
       "Local Hawaiian cuisine tasting"
-    ], "images": ["/src/assets/images/beaches/waikiki%20beach.webp","/src/assets/images/beaches/waikiki2.jpg"],
-    "image": "/src/assets/images/beaches/waikiki%20beach.webp"
+    ], "images": ["/images/beaches/waikiki%20beach.webp","/images/beaches/waikiki2.jpg"],
+    "image": "/images/beaches/waikiki%20beach.webp"
   },
   {
     "id": 6,
@@ -103,7 +103,7 @@
       "Exploring hidden coves and lagoons",
       "Relaxing with local Creole food nearby"
     ],
-     "images": ["/src/assets/images/beaches/anse%20sourse%20beach.webp","/src/assets/images/beaches/anse-source.jpg"],
-    "image": "/src/assets/images/beaches/anse%20sourse%20beach.webp"
+     "images": ["/images/beaches/anse%20sourse%20beach.webp","/images/beaches/anse-source.jpg"],
+    "image": "/images/beaches/anse%20sourse%20beach.webp"
   }
 ]

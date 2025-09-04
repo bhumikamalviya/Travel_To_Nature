@@ -15,10 +15,10 @@
     "Adventure camping and stargazing in the mountains"
   ],
     "activities": ["Trekking", "Photography", "Expedition"],
-    "image": "/src/assets/images/mountain/everest.webp",
+    "image": "/images/mountain/everest.webp",
     "images": [
-      "/src/assets/images/mountain/everest.webp",
-      "/src/assets/images/mountain/everest2.webp"
+      "/images/mountain/everest.webp",
+      "/images/mountain/everest2.webp"
     ]
   },
   
@@ -38,10 +38,10 @@
     "Exploring Zermatt’s alpine culture, food, and local traditions"
   ],
     "activities": ["Hiking", "Skiing", "Cable Car Rides"],
-    "image": "/src/assets/images/mountain/metterhorn.webp",
+    "image": "/images/mountain/metterhorn.webp",
       "images": [
-     "/src/assets/images/mountain/metterhorn.webp",
-      "/src/assets/images/mountain/metterhorn2.jpg"
+     "/images/mountain/metterhorn.webp",
+      "/images/mountain/metterhorn2.jpg"
     ]
   },
   
@@ -64,8 +64,8 @@
     "description": "Japan’s iconic snow-capped mountain, a UNESCO World Heritage site and popular hiking destination.",
     "best_time_to_visit": "July to September",
     "activities": ["Hiking", "Sightseeing", "Photography"],
-    "image": "/src/assets/images/mountain/fujii.webp",
-    "images": ["/src/assets/images/mountain/fujii.webp","/src/assets/images/mountain/fuji2.jpg"]
+    "image": "/images/mountain/fujii.webp",
+    "images": ["/images/mountain/fujii.webp","/images/mountain/fuji2.jpg"]
   },
   {
     "id": 402,
@@ -76,8 +76,8 @@
     "description": "The third highest mountain in the world, surrounded by lush forests, glaciers, and scenic valleys.",
     "best_time_to_visit": "March to May & September to October",
     "activities": ["Trekking", "Nature Walks", "Camping"],
-    "image": "/src/assets/images/mountain/kanchanjanga.jpg",
-     "images":[ "/src/assets/images/mountain/kanchanjanga.jpg","/src/assets/images/mountain/kanchanjunga2.jpg"],
+    "image": "/images/mountain/kanchanjanga.jpg",
+     "images":[ "/images/mountain/kanchanjanga.jpg","/images/mountain/kanchanjunga2.jpg"],
      "activitiess": [
     "Trekking",
     "Nature Walks",
@@ -98,8 +98,8 @@
     "description": "A vast mountain range with stunning national parks, diverse wildlife, and numerous hiking trails.",
     "best_time_to_visit": "June to September",
     "activities": ["Hiking", "Wildlife Viewing", "Camping"],
-    "image": "/src/assets/images/mountain/rockyM.webp",
-     "images": ["/src/assets/images/mountain/rockyM.webp","/src/assets/images/mountain/roky.jpg"],
+    "image": "/images/mountain/rockyM.webp",
+     "images": ["/images/mountain/rockyM.webp","/images/mountain/roky.jpg"],
      "activitiess": [
     "Hiking",
     "Wildlife Viewing",
@@ -123,8 +123,8 @@
     "description": "The highest mountain in the Alps, known for its breathtaking snow-covered peaks and alpine adventure opportunities.",
     "best_time_to_visit": "June to September",
     "activities": ["Mountaineering", "Skiing", "Hiking"],
-    "image": "/src/assets/images/mountain/mont_blanc.webp",
-     "images":[ "/src/assets/images/mountain/mont_blanc.webp", "/src/assets/images/mountain/blac.jpg"],
+    "image": "/images/mountain/mont_blanc.webp",
+     "images":[ "/images/mountain/mont_blanc.webp", "/images/mountain/blac.jpg"],
      "activitiess": [
     "Mountaineering",
     "Skiing",

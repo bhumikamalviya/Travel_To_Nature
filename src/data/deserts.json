@@ -7,7 +7,7 @@
     "description": "The largest hot desert in the world, known for its vast sand dunes, oases, and extreme climate.",
     "best_time_to_visit": "October to April",
     "activities": ["Camel Safari", "Sandboarding", "Stargazing"],
-    "image": "src/assets/images/deserts/sahara.webp"
+    "image": "/images/deserts/sahara.webp"
   },
   {
     "id": 102,
@@ -17,7 +17,7 @@
     "description": "Known as the Great Indian Desert, famous for its cultural heritage, sand dunes, and camel rides.",
     "best_time_to_visit": "November to February",
     "activities": ["Camel Rides", "Desert Camping", "Cultural Shows"],
-    "image": "src/assets/images/deserts/thar.webp"
+    "image": "/images/deserts/thar.webp"
   },
     {
     "id": 104,
@@ -27,7 +27,7 @@
     "description": "A semi-arid sandy savanna known for its wildlife and the indigenous San people.",
     "best_time_to_visit": "May to September",
     "activities": ["Wildlife Safari", "Photography", "Cultural Tours"],
-    "image": "src/assets/images/deserts/kalahari.jpg"
+    "image": "/images/deserts/kalahari.jpg"
   },
   {
     "id": 103,
@@ -37,7 +37,7 @@
     "description": "A cold desert known for its unique landscapes, dinosaur fossils, and nomadic culture.",
     "best_time_to_visit": "May to September",
     "activities": ["Wildlife Viewing", "Photography", "Trekking"],
-    "image": "src/assets/images/deserts/gobi.jpg"
+    "image": "/images/deserts/gobi.jpg"
   },
 
   {
@@ -48,7 +48,7 @@
     "description": "The driest desert in the world, known for its salt flats, geysers, and otherworldly landscapes.",
     "best_time_to_visit": "March to May & September to November",
     "activities": ["Stargazing", "Hiking", "Photography"],
-    "image": "src/assets/images/deserts/atacama.webp"
+    "image": "/images/deserts/atacama.webp"
   },
   {
     "id": 106,
@@ -58,6 +58,6 @@
     "description": "Home to the famous Death Valley and Joshua Tree National Park, known for its extreme heat and unique vegetation.",
     "best_time_to_visit": "October to April",
     "activities": ["Hiking", "Photography", "Camping"],
-    "image": "src/assets/images/deserts/mojava.jpg"
+    "image": "/images/deserts/mojava.jpg"
   }
 ]
